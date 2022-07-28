@@ -11,7 +11,12 @@
 // I AM NOT DONE
 
 // Put your function here!
-// fn calculate_apple_price {
+fn calculate_apple_price(num: i32) -> i32 {
+    match num {
+        41.. => num,
+        _ => num * 2,
+    }
+}
 
 // Don't modify this function!
 #[test]
